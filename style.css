@@ -1,0 +1,15 @@
+body
+{ background-image: url("https://cdn.essentiels.bnf.fr/media/images/cache/crop_doublelandscape_1000_500/rc/QpwKLMAM/uploads/media/image/20201204135922000000_pas_2823.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  /*-webkit-text-stroke: 1px; -webkit-text-stroke-color: rgba(0, 0, 0, 1);*/
+
+  }
+.transparant{
+  background-color: transparent;
+  color:white
+}
+.encadrer-un-contenu{
+   border: 10px solid yellow; padding: 90px; 
+  }
