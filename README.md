@@ -6,7 +6,7 @@
 - un menu devra être toujours présent afin de naviguer sur les différentes pages ou vues Web (5 %) ;(**casimir**)
 - des liens vers d'autres sites Web devront être présents sur une des pages ou vue Web (2,5 %) ;(**all**)
 - un formulaire ergonomique sera présent pour recueillir les avis ; un e-mail sera généré automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5 %) ;(**Hugo**)
-- une vidéo de moins de deux minutes avec un sous-titrage adapté, devra être présente (7,5 %) ;
+- une vidéo de moins de deux minutes avec un sous-titrage adapté, devra être présente (7,5 %) ;(**Felix**)
 - pour les longues pages Web, un ancrage permettant remonter en haut de la page (2,5 %) ;
 - possibilité de changer le style du site Web grâce à un lien en JavaScript par l'utilisation d'une autre feuille de style (la plus différente possible) de la feuille de style par défaut (10 %) ;
 - le site Web devra être adaptatif à la fois smartphones, tablettes et ordinateurs (5 %) ;
