@@ -1,11 +1,11 @@
 # projetNucleaire
 - le site Web doit être hébergé et accessible sur le Web (5 %) (**casimir**)
-- un favicon devra apparaitre sur l’ensemble des pages Web (1,25 %) ;
+- un favicon devra apparaitre sur l’ensemble des pages Web (1,25 %) ;(**Hugo**)
 - la balise meta description devra être renseignée (1,25 %) ;
 - le contenu du site Web devra être pertinent, et portera sur le thème de votre choix (5 %) ;(**all**)
 - un menu devra être toujours présent afin de naviguer sur les différentes pages ou vues Web (5 %) ;(**casimir**)
 - des liens vers d'autres sites Web devront être présents sur une des pages ou vue Web (2,5 %) ;(**all**)
-- un formulaire ergonomique sera présent pour recueillir les avis ; un e-mail sera généré automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5 %) ;
+- un formulaire ergonomique sera présent pour recueillir les avis ; un e-mail sera généré automatiquement à votre attention (et ouvert dans un client de messagerie) (7,5 %) ;(**Hugo**)
 - une vidéo de moins de deux minutes avec un sous-titrage adapté, devra être présente (7,5 %) ;
 - pour les longues pages Web, un ancrage permettant remonter en haut de la page (2,5 %) ;
 - possibilité de changer le style du site Web grâce à un lien en JavaScript par l'utilisation d'une autre feuille de style (la plus différente possible) de la feuille de style par défaut (10 %) ;
