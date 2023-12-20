@@ -19,3 +19,7 @@
 
 
 url site : https://projetweb.alwaysdata.net
+
+hote : projetweb.alwaysdata.net
+non utilisateur : projetweb
+mdp : çasertàrienmaispasgrave04*
