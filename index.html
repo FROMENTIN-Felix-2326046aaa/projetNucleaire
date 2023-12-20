@@ -2,13 +2,13 @@
 <html lang="fr">
 	<head>
         	<!--favicon-->
-        	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
         	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
         	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
         	<link rel="manifest" href="/img/site.webmanifest">
         	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
-        	<title>Projet Nucléaire</title>
-        	<center><span class="encadrer-un-contenu"><strong>Titre</strong></span></center>
+        	<title>Projet Étudiant</title>
+        	<center><span class="encadrer-un-contenu"><strong>Les grandes heures du nucléaire.</strong></span></center>
         	<meta charset="utf-8">
         	<link rel="stylesheet" href="style.css">
 	</head>
@@ -33,19 +33,20 @@
             <ul>
               <li>
                 <label for="name">Nom&nbsp;:</label>
-                <input type="text" id="name" name="user_name" />
+                <input type="text" class="transparant" id="name" name="user_name" />
               </li>
               <li>
                 <label for="mail">E-mail&nbsp;:</label>
-                <input type="email" id="mail" name="user_mail" />
+                <input type="email" class="transparant" id="mail" name="user_mail" />
               </li>
                 <input id="sexeHomme" type="radio" name="sexe" class="transparant" value="homme"><label for="sexeHomme">Homme</label> 
 			    <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label>
 				<input id="sexe!" type="radio" name="sexe" class="transparant" value="autre"disabled><label for="sexeFemme">autre</label></strong><br>
               <li>
                 <label for="msg">Votre avis nous intéresse&nbsp;:</label>
-                <textarea id="msg" name="user_message"></textarea>
+                <textarea id="msg" class="transparant" name="user_message"></textarea>
               </li>
+              <input type="submit" value="Envoyer">
             </ul>
           </form>
     </footer>
