@@ -1,15 +1,11 @@
 body
-{ background-image: url("https://imagizer.imageshack.com/img922/6725/qQae89.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+{ background: linear-gradient(black, rgb(42, 0, 66));
+  background-size: cover ;
   color:white;
   /*-webkit-text-stroke: 1px; -webkit-text-stroke-color: rgba(0, 0, 0, 1);*/
 
   }
 .transparant{
   background-color: transparent;
-  color:white
+  color:white;
 }
-.encadrer-un-contenu{
-   border: 10px solid :black; padding: 90px; 
-  }
