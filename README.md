@@ -16,3 +16,6 @@
 - validationW3C de toutes vos pages HTML (réglage HTML5) (5 %) (**casimir**)
 - validation W3C de toutes vos pages CSS (réglage CSS niveau 3 avec aucun avertissement et gestion des extensions propriétaires comme avertissement) (2,5 %) (**casimir**)
 - perfectionnement avec l’ajouts de fonctionnalités et l’utilisation d’un système de gestion de version comme GitHub (10 %).
+
+
+url site : https://projetweb.alwaysdata.net
