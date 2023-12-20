@@ -1,7 +1,7 @@
 # projetNucleaire
 - le site Web doit être hébergé et accessible sur le Web (5 %) (**casimir**)
 - un favicon devra apparaitre sur l’ensemble des pages Web (1,25 %) ;(**Hugo**)
-- la balise meta description devra être renseignée (1,25 %) ;
+- la balise meta description devra être renseignée (1,25 %) ;(**Felix**)
 - le contenu du site Web devra être pertinent, et portera sur le thème de votre choix (5 %) ;(**all**)
 - un menu devra être toujours présent afin de naviguer sur les différentes pages ou vues Web (5 %) ;(**casimir**)
 - des liens vers d'autres sites Web devront être présents sur une des pages ou vue Web (2,5 %) ;(**all**)
