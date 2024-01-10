@@ -1,65 +1,33 @@
-body
-{   background-color:black;
-    background-size: cover ;
-    background-repeat: round;
-    color:white;
-    /*-webkit-text-stroke: 1px; -webkit-text-stroke-color: rgba(0, 0, 0, 1);*/
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+        <!--favicon-->
+		    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    	  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    	  <link rel="manifest" href="/img/site.webmanifest">
+        <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+        <title>Côté Science</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Côté atomes</h1>
+    <nav>
+      <ul><!--barre de nav-->
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="atome.html">Côté atome</a></li>
+          <li><a href="france.html">En France</a></li>
+          <li><a href="culture.html">Culture populaire</a></li>
+      </ul>
+    </nav>
 
-  }
-.transparant{
-    background-color: transparent;
-    color:white;
-}
-h1{
-    text-align : center
-}
-.right{
-    text-align : right
- }
-.left{
-    text-align : justify
-}
-.just{
-    text-align: justify;
-    font-size: 23px;
-}
-.box{
-    display: flex;
-}
-nav{
-    width: 100%;
-    margin: 0px auto 40px auto;
-    background-color: white;
-    position: sticky;
-    top: 0px;
-}
-
-nav ul{
-    list-style-type: none;
-}
-
-nav li{
-    float: left;
-    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
-    text-align: center;/*Centre le texte dans les éléments de menu*/
-}
-
-/*Evite que le menu n'ait une hauteur nulle*/
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-nav a{
-    display: block; /*Toute la surface sera cliquable*/
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
-    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
-}
-
-nav a:hover{
-    color: white;
-    background-color:rgb(0, 0, 0);
-}
+  <div class="box"><p class="just">Une arme nucléaire est une arme non conventionnelle qui utilise l'énergie dégagée par la <a href="https://fr.wikipedia.org/wiki/Fission_nucl%C3%A9aire">fission de noyaux atomiques lourds</a>, où des noyaux d'atomes sont divisés en deux, libérant des neutrons et une quantité massive d'énergie. Ce processus peut générer des températures de plusieurs millions de degrés Celsius, créant une boule de feu incandescente. L'onde de choc qui en résulte se propage à des vitesses extrêmement élevées, détruisant tout sur son passage. De plus, l'explosion émet des rayonnements ionisants, tels que les rayons gamma.</p>
+  <img src="https://imagizer.imageshack.com/img923/2614/SFxljr.png" alt="composition des bombes nucléaires"></div>
+  <div class="box"><img src="https://www.lhistoire.fr/sites/lhistoire.fr/files/article_papier_field_image_paysage/Joliot-eau-lourde.PNG" alt="chercheur dans le nucléaire">
+  <p class="justi">Le développement de la première bombe nucléaire, connue sous le nom de projet Manhattan, a impliqué de nombreux scientifiques, ingénieurs et chercheurs de diverses disciplines. Certains des principaux contributeurs incluent:  Robert Oppenheimer: Physicien théoricien américain et directeur scientifique du projet Manhattan. Il est souvent considéré comme le « père de la bombe atomique :<br><br>-Enrico Fermi: Physicien italien-américain qui a dirigé les premières expériences de réaction en chaîne contrôlée, contribuant ainsi au développement de la bombe.<br>-Niels Bohr: Physicien danois qui a apporté des contributions importantes à la compréhension théorique des réactions nucléaires et a joué un rôle dans le projet Manhattan.<br>-Richard Feynman: Physicien théoricien américain qui a contribué à la théorie quantique et à la compréhension des processus nucléaires.<br>-Leo Szilard: Physicien hongrois-américain qui a joué un rôle clé dans la formulation de la théorie de la réaction en chaîne et a plaidé en faveur du développement de la bombe.<br>-Hans Bethe: Physicien théoricien allemand-américain qui a dirigé la division théorique du projet Manhattan et a joué un rôle majeur dans la compréhension des réactions nucléaires.<br><br>Ces scientifiques, parmi d'autres, ont travaillé en collaboration dans le cadre du projet Manhattan pendant la Seconde Guerre mondiale, aboutissant à la première bombe nucléaire, testée avec succès lors de l'essai Trinity en juillet 1945.</p>
+</div>
+</body>
+<footer>
+</footer>
+</html>
