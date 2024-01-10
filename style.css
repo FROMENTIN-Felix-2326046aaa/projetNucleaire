@@ -30,10 +30,13 @@ h1{
 }
 .box{
     display: flex;
-    
+    padding-top : 5px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .box p{
     margin: 0;
+    
 }
 .img{
     width: 657px;
@@ -86,4 +89,10 @@ td {
 thead,
 tfoot {
   background-color: #333;
+}
+p{ 
+    text-align: justify;
+    padding-top : 5px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
