@@ -23,7 +23,7 @@ body
     text-align: justify;
     font-size: 23px;
 }
-.bloc{
+.box{
     flex: content;
 }
 nav{
