@@ -26,6 +26,10 @@ body
 .box{
     flex: content;
 }
+.img{
+    width: 657px;
+    height: 377px;
+}
 nav{
     width: 100%;
     margin: 0px auto 40px auto;
