@@ -23,6 +23,10 @@ body
     text-align: justify;
     font-size: 23px;
 }
+.justi{
+    text-align: justify;
+    font-size: 10px;
+}
 .box{
     flex: content;
 }
