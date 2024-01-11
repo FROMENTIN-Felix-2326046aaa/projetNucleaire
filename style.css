@@ -4,14 +4,16 @@ body
     background-repeat: round;
     color:white;
     /*-webkit-text-stroke: 1px; -webkit-text-stroke-color: rgba(0, 0, 0, 1);*/
-
+    font-size: 20;
   }
 .transparant{
     background-color: transparent;
     color:white;
 }
 h1{
-    text-align : center
+    text-align : center;
+    font-size: 2.5em;
+    
 }
 .right{
     text-align : right
@@ -36,7 +38,6 @@ h1{
 }
 .box p{
     margin: 0;
-    
 }
 .img{
     width: 657px;
@@ -45,7 +46,7 @@ h1{
 nav{
     width: 100%;
     margin: 0px auto 40px auto;
-    background-color: white;
+    background-color: rgb(233, 212, 22);
     position: sticky;
     top: 0px;
 }
@@ -98,4 +99,17 @@ p{
 }
 h2{
     text-align : center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.size1{
+    font-size: 1.8em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.size2{
+    font-size: 2em;
+}
+.text1{
+    font-size: 1.8em;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
