@@ -13,9 +13,7 @@ body
 h1{
     text-align : center
 }
-ul{
-    text-align: center;
-}
+
 .right{
     text-align : right
  }
@@ -56,9 +54,6 @@ nav{
     top: 0px;
 }
 
-nav ul{
-    list-style-type: none;
-}
 
 nav li{
     float: left;
@@ -67,7 +62,7 @@ nav li{
 }
 
 /*Evite que le menu n'ait une hauteur nulle*/
-nav ul::after{
+nav {
     content: "";
     display: table;
     clear: both;
