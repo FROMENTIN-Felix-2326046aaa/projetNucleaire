@@ -7,20 +7,22 @@
     	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     	<link rel="manifest" href="/img/site.webmanifest">
         <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
-        <title>Acceuil</title>
+        <title>Accueil</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link id="linkcss" rel="stylesheet" href="style.css">
 	</head>
 	<body>
-        <div class="center"><h1>Acceuil</h1></div>
-		
+		    <!--boutton de changement de theme style-->		<div class="boxt"><button id="replaceonclicktest" >Changer le style</button><h1>Accueil</h1><a></a></div>
         <nav>
-	<span><a href="index.html">Acceuil</a><a href="atome.html">Côté atome</a><a href="france.html">En France</a><a href="culture.html">Culture populaire</a></span>
-        
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="atome.html">Côté atome</a></li>
+              <li><a href="france.html">En France</a></li>
+              <li><a href="culture.html">Culture populaire</a></li>
+            </ul>
         </nav>
-		    <!--boutton de changement de theme style-->
-        <button id="replaceonclicktest" >Changer le style</button>
+
 		    <p>L'arme nucléaire est développée dans le contexte de la Seconde Guerre mondiale, puis dans celui de la course aux armements (guerre froide) qui s'ensuit.</p>
         <p>Le premier essai nucléaire est effectué le 16 juillet 1945 par les États-Unis ; il s'agit d'une bombe A d'une puissance de 19 kt.</p>
 			  <p>Les deux grands types d'armes nucléaires sont les bombes à fission nucléaire ou « bombes A » 
@@ -30,28 +32,37 @@
 				de TNT et la mégatonne (Mt) valant 1 million de tonnes de TNT. Dans ces deux grandes familles, 
 				des armes plus spécialisées ont été conçues en fonction d'effets spéciaux recherchés, comme la bombe 
 				à neutrons. </p><br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/sMqPB1meP2M?si=op3Z9TS4DD6XFKbJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
+            <iframe class="sizei" src="https://www.youtube.com/embed/sMqPB1meP2M?si=op3Z9TS4DD6XFKbJ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
           <p>L'atoll de bikini a beaucoup servi pour les test de differntes bombes atomiques.</p>
             <p>En 1954, les États-Unis procèdent 
             sur ce même atoll à l'explosion d'une bombe H de nom de code 
             Castle Bravo, qui dégage une puissance de 15 Mt</p>
             <h3>Pour plus d'information generales sur l'arme atomique :</h3>
-                <a href="https://fr.wikipedia.org/wiki/Arme_nucl%C3%A9aire"><img src="https://img.freepik.com/photos-premium/vue-aerienne-enorme-explosion-bombe-nucleaire-au-dessus-ville-new-york-generative-ai_741672-971.jpg" alt=""></a>
-            <br><br>
+                <a href="https://fr.wikipedia.org/wiki/Arme_nucl%C3%A9aire"><img src="https://img.freepik.com/photos-premium/vue-aerienne-enorme-explosion-bombe-nucleaire-au-dessus-ville-new-york-generative-ai_741672-971.jpg" alt="champignon nucleaire"></a>
+            <br><br><br><br><br><br><br><br>
       <footer>
-        <form id="form" action="mailto:projetweb@alwaysdata.net">
-                <label for="name">Nom&nbsp;:</label>
-                <input type="text" class="transparant" id="name" name="user_name" /><br>
+        <form class="center" id="form" action="mailto:projetweb@alwaysdata.net">
+          <ul>  
+          <li>  
+              <label for="name">Nom&nbsp;:</label>
+                <input type="text" class="transparant" id="name" name="user_name" >
+            </li><li>
                 <label for="mail">E-mail&nbsp;:</label>
-                <input type="email" class="transparant" id="mail" name="user_mail" /><br>
+                <input type="email" class="transparant" id="mail" name="user_mail" >
+            </li><li>
                 <input id="sexeHomme" type="radio" name="sexe" class="transparant" value="homme"><label for="sexeHomme">Homme</label> 
 			    <input id="sexeFemme" type="radio" name="sexe" value="femme"><label for="sexeFemme">Femme</label>
-				<input id="sexe!" type="radio" name="sexe" class="transparant" value="autre"><label for="sexeFemme">autre</label><br>
+				<input id="sexe!" type="radio" name="sexe" class="transparant" value="autre" disabled><label for="sexeFemme">autre</label>
+            </li><li>
                 <label for="msg">Votre avis nous intéresse&nbsp;:</label>
-                <textarea id="msg" class="transparant" name="user_message"></textarea><br>
-              <input type="submit" value="Envoyer">
+                <textarea id="msg" class="transparant" name="user_message"></textarea>
+            </li>   
+          </ul>
+          <input type="submit" value="Envoyer">
           </form>
         <p>source : wikipedia, youtube et arte</p>
     </footer>
+  <script src="test.js"></script>
 	</body>
+
 </html>
