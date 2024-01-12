@@ -45,40 +45,41 @@ h1{
     width: 657px;
     height: 377px;
 }
-nav{
-    width: 90%;
-    margin: 0px auto 40px auto;
-    background-color: rgb(166, 0, 255);
-    position: sticky;
-    top: 0px;
-}
+
 
 
 h3{
     color: rgb(20, 112, 112);
 }
 
-nav li{
-    list-style  : none;
-    float: left;
-    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
-    text-align: left;/*Centre le texte dans les éléments de menu*/
-}
-
-/*Evite que le menu n'ait une hauteur nulle*/
 nav{
+    width: 90%;
+    margin: 0px auto 40px auto;
+    background-color: rgb(166, 0, 255);
+    position: sticky;
+    top: 0px;
+    text-align: center;/*Centre le texte dans les éléments de menu*/
     content: "";
     display: table;
     clear: both;
 }
 
+
 nav a{
-    display: block; /*Toute la surface sera cliquable*/
+    float: left;
+    text-decoration: none;
+    height: 36px;
+    line-height: 33px;
+    padding: 0 10px;
+    font-size: 13px;
+    width: 25%;
+    display: block; 
     text-decoration: none;
     color: rgb(67, 26, 26);
-    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
-    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
 }
+
 
 nav a:hover{
     color: rgb(36, 86, 100);
