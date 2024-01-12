@@ -118,7 +118,7 @@ h2{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
 }
-.styled {
+button {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -134,14 +134,14 @@ h2{
       rgba(255, 0, 0, 0)
     );
 }
-.styled:hover {
+button:hover {
     background-image: linear-gradient(
       to top,
       rgba(255, 0, 0, 0),
       rgba(50, 0, 0, 1)
     );
 }  
-.styled:active {
+button:active {
     box-shadow:
       inset -2px -2px 3px rgba(255, 255, 255, 0.6),
       inset 2px 2px 3px rgba(0, 0, 0, 0.6);
