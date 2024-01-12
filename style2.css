@@ -59,6 +59,7 @@ h3{
 }
 
 nav li{
+    list-style  : none;
     float: left;
     width: 25%;/*100% divisé par le nombre d'éléments de menu*/
     text-align: left;/*Centre le texte dans les éléments de menu*/
