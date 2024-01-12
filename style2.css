@@ -1,0 +1,158 @@
+body
+{   background-color:rgb(238, 247, 76);
+    background-size: cover ;
+    color:white;
+    /*-webkit-text-stroke: 1px; -webkit-text-stroke-color: rgba(0, 0, 0, 1);*/
+
+  }
+.transparant{
+    background-color: transparent;
+    color:white;
+}
+h1{
+    text-align : left;
+    color: rgb(51, 14, 164); 
+}
+ul{
+    text-align: center;
+}
+.right{
+    text-align : right;
+ }
+.left{
+    text-align : justify;
+}
+.just{
+    text-align: justify;
+    font-size: 30px;
+    line-height: 40px;
+}
+.justi{
+    text-align: justify;
+    font-size: 20px;
+}
+.jus{
+    font-size: 27px;
+}
+.box{
+    display: flex;
+    padding-top : 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.box p{
+    margin: 0;
+    
+}
+.img{
+    width: 657px;
+    height: 377px;
+}
+nav{
+    width: 90%;
+    margin: 0px auto 40px auto;
+    background-color: rgb(166, 0, 255);
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+h3{
+    color: rgb(20, 112, 112);
+}
+
+nav li{
+    float: left;
+    width: 25%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: left;/*Centre le texte dans les éléments de menu*/
+}
+
+/*Evite que le menu n'ait une hauteur nulle*/
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; /*Toute la surface sera cliquable*/
+    text-decoration: none;
+    color: rgb(67, 26, 26);
+    border-bottom: 2px solid transparent;/*Evite le décalage des éléments sous le menu à cause de la bordure en :hover*/
+    padding: 10px 0px;/*Agrandit le menu et espace la bordure du texte*/
+}
+
+nav a:hover{
+    color: rgb(36, 86, 100);
+    background-color:rgb(60, 41, 85);
+}
+
+table,
+td {
+    color: black;
+    margin-left:auto;
+   margin-right:auto;
+  border: 3px solid #ff9e20;
+  text-align : center; 
+}
+
+thead,
+tfoot {
+  background-color: #ffdd00;
+}
+p{ 
+    color: rgb(20, 112, 112);
+    text-align: justify;
+    padding-top : 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+h2{
+    text-align : center;
+    color: #a90090;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.size1{
+    font-size: 1.8em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.size2{
+    font-size: 2em;
+}
+.text1{
+    font-size: 1.8em;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+button {
+    margin-left: 48%;
+    border: 2;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+    border-radius: 25px;
+    background-color: rgb(56, 255, 92);
+    background-image: linear-gradient(
+      to top,
+      rgba(50, 0, 0, 1),
+      rgba(255, 0, 0, 0)
+    );
+}
+button:hover {
+    background-image: linear-gradient(
+      to top,
+      rgba(255, 0, 0, 0),
+      rgba(50, 0, 0, 1)
+    );
+}  
+button:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
